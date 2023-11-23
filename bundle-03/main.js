@@ -64,17 +64,17 @@ const cars = [
 ];
 
 const gasolineCars = cars.filter(
-  (cars) => cars.type.toLowerCase() === 'benzina'
+  (auto) => auto.type.toLowerCase() === 'benzina'
 );
 
-const dieselCars = cars.filter((cars) => {
-  return cars.type.toLowerCase() === 'diesel';
+const dieselCars = cars.filter((auto) => {
+  return auto.type.toLowerCase() === 'diesel';
 });
 
-const otherCars = cars.filter((cars) => {
+const otherCars = cars.filter((auto) => {
   return (
-    cars.type.toLowerCase() !== 'benzina' &&
-    cars.type.toLowerCase() !== 'diesel'
+    auto.type.toLowerCase() !== 'benzina' &&
+    auto.type.toLowerCase() !== 'diesel'
   );
 });
 
