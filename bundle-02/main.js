@@ -156,7 +156,7 @@ checkAccess();
 // }
 // checkAccessImproved();
 
-// Questa funzione dato un array di indirizzi email richiede all'utente di inserire la propria e-mail. Setta la variabile granAccess a false per ogni
+// Questa funzione dato un array di indirizzi email richiede all'utente di inserire la propria e-mail. Setta la variabile granAccess a false, scorre tutta la lunghezza dell'array addresses, assegna ad email l'elemento che stiamo scorrendo in questo momento, se la lunghezza dell'email inserita tramite il prompt dall'utente è maggiore di 5 lttere e se l'email dell'utente è uguale all'email contenuta nel primo array di email setta grantAccess a true. Se grantAccess è true stampa accesso consentito viceversa accesso negato
 // Ci sono 3 errori: true e false vanno settati senza gli apici, la parentesi graffa va chiusa prima dell'invocazione della funzione, l'ultimo if va spostato fuori dal for
 
 function checkAccessImproved() {
