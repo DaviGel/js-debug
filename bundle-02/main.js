@@ -157,7 +157,7 @@ checkAccess();
 // checkAccessImproved();
 
 // Questa funzione dato un array di indirizzi email richiede all'utente di inserire la propria e-mail. Setta la variabile granAccess a false per ogni
-// Errori: true e false vanno settati senza gli apici. Va chiusa la parentesi alla prima dell'invocazione della funzione. L'ultimo if va spostato fuori dal for
+// Ci sono 3 errori: true e false vanno settati senza gli apici, la parentesi graffa va chiusa prima dell'invocazione della funzione, l'ultimo if va spostato fuori dal for
 
 function checkAccessImproved() {
   const addresses = [
